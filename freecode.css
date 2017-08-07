@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css?family=Cutive+Mono');
+
+body {
+  background-color: grey;
+}
+
+.container {
+  position: flex;
+  width: 550px;
+  height: 380px;
+  background-color: white;
+  margin: 10% auto;
+  border-radius: 5px;
+}
+
+#quoteText {
+  padding: 15px 5px 0 10px;
+}
+
+#quoteText, #quoteAuthor {
+  color: grey;
+  font-family: 'Cutive Mono', monospace;
+  font-size: 30px;
+  margin-bottom: 0; 
+}
+
+#quoteAuthor {
+  font-size: 25px;
+  text-align: end;
+  margin: 0 15px;
+}
+
+#author::before {
+  content: '- ';
+}
+
+.btn {
+  -webkit-border-radius: 3;
+  -moz-border-radius: 3;
+  border-radius: 3px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  background: #b8b8b8;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  border: 0 solid;
+}
+
+.btn:hover {
+  background: #838383;
+  text-decoration: none;
+}
+
+.buttons {
+  margin: 20px;
+  position: absolute;
+}
+
+.made {
+  margin-top: -100px;
+  text-align: center;
+  position: relative;
+  color: #fff;
+}
+
+#mari, #mari:hover {
+  text-decoration: none;
+  color: #323232;
+}
+
+.fa-heart {
+  color: pink;
+}
+
+
+
+
+
+
+
+
+
+
