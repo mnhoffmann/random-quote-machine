@@ -7,7 +7,6 @@ body {
 .container {
   position: flex;
   width: 550px;
-  height: 380px;
   background-color: white;
   margin: 10% auto;
   border-radius: 5px;
@@ -58,7 +57,6 @@ body {
 }
 
 .made {
-  margin-top: -100px;
   text-align: center;
   position: relative;
   color: #fff;
